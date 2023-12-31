@@ -1,0 +1,98 @@
+* {
+    box-sizing: content-box !important;
+  }
+  body{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      position: relative;
+      top: 30px;
+      left: 80px;
+      text-align: center;
+  }
+  .weather-app{
+    background-image:url(skylinepink.png);
+    max-width: 900px;
+    height: 500px;
+  }
+  h1{
+      color: #9553ff;
+      font-size: 80px;
+      font-weight: bolder;
+      position: relative;
+      top: -60px;
+      }
+  
+  h2{ border-style:solid;
+      border-width: thick;
+      background:white;
+      width: 121px;
+      border-color: #FF1E78;
+      font-size: 30px;
+      text-align: center;
+       }
+       
+      .main{font-size: 40px;
+          font-weight: 750;
+          position: relative;
+          top: -170px;
+              color: #FF1E78;}
+  
+      .suncloud{font-size: 110px;
+          position: relative;
+    top: -105px;
+    left: 70px;}
+    
+  hr{
+      color: #04c3ff;
+      border-width: 4px;
+      margin:0 auto;
+      padding:5px;
+  }
+      .maintemp{
+          color: #FF1E78;
+          font-size: 120px;
+          font-weight: 700;
+          font-style: italic;
+          position: relative;
+          left: 50px;
+          top: -90px;
+      }
+      .city-input {
+          color: #9553ff;
+          font-weight: bold;
+          border-radius: -20px;
+          background-color: #FF1E78;
+          opacity:0.6;
+          position: relative;
+          text-align: center;
+          border-color: #c21c5e;
+          border-width: thick;
+          top: 50px;
+          font-size: 30px;
+          }
+    
+      .celcius{color: #FF1E78;
+          position: relative;
+          font-size:60px;
+          font-weight:600;
+          font-style: italic;
+          top:-90px;
+      left: 50px;}
+  
+          .temperature{font-size: 45px;
+          position: relative;
+          top:20px;}
+    
+          #city-input.form-control.shadow-sm {position: relative; top:-80px; color: #04c3ff; width:400px; height: 50px;}
+          #search.form-control.btn.btn-primary.shadow-sm {position: relative; top:-80px;background-color:  #c21c5e; width:200px; border:none;}
+          #the-day {position: relative; right:-15px; top: 100px;}
+
+          footer{font-size: 17px;}
+
+          a{color: #FF1E78;
+        font-weight: 600;
+    font-style: italic;}
+    .search-form{position: relative;
+    left:10px;
+    top: 60px;}
+    
